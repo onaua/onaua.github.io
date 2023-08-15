@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+  .animal_section .animal_container .box {
+    flex-basis: 45%;
+  }
+}
+@media (max-width: 576px) {
+  .animal_section .animal_container .box {
+    flex-basis: 95%;
+    animation: none !important;
+  }
+}
