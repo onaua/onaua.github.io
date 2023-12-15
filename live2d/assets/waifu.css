@@ -1,22 +1,26 @@
 .waifu {
+
     position: fixed;
     bottom: 0;
     z-index: 1;
     font-size: 0;
+    
     -webkit-transform: translateY(3px);
     transform: translateY(3px);
 }
 .waifu:hover {
+
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
 .waifu-tips {
+
     opacity: 0;
     margin: -20px 20px;
     padding: 5px 10px;
-    border: 1px solid rgba(224, 186, 140, 0.62);
-    border-radius: 12px;
-    background-color: rgba(236, 217, 188, 0.5);
+    border:1px solid rgba(224,186,140,.62);
+    border-radius:12px;
+    background-color:rgba(236,217,188,.5);
     box-shadow: 0 3px 15px 2px rgba(191, 158, 118, 0.2);
     text-overflow: ellipsis;
     overflow: hidden;
@@ -28,6 +32,7 @@
     animation-timing-function: ease-in-out;
 }
 .waifu-tool {
+
     display: none;
     color: #aaa;
     top: 50px;
@@ -35,22 +40,27 @@
     position: absolute;
 }
 .waifu:hover .waifu-tool {
+
     display: block;
 }
 .waifu-tool span {
+
     display: block;
     cursor: pointer;
-    color: #5b6c7d;
+    color: #1e9459;
     transition: 0.2s;
 }
 .waifu-tool span:hover {
+
     color: #34495e;
 }
 .waifu #live2d{
+ 
     position: relative;
 }
 
 @keyframes shake {
+
     2% {
         transform: translate(0.5px, -1.5px) rotate(-0.5deg);
     }
@@ -258,6 +268,7 @@
 }
 [class^="fui-"],
 [class*="fui-"] {
+  right: 0;
   font-family: 'Flat-UI-Icons';
   speak: none;
   font-style: normal;
@@ -268,23 +279,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .fui-cross:before {
+    right: 0;
   content: "\e609";
 }
 .fui-info-circle:before {
+    right: 0;
   content: "\e60f";
 }
 .fui-photo:before {
+    right: 0;
   content: "\e62a";
 }
 .fui-eye:before {
+    right: 0;
   content: "\e62c";
 }
 .fui-chat:before {
+    right: 0;
   content: "\e62d";
 }
 .fui-home:before {
+    right: 0;
   content: "\e62e";
 }
 .fui-user:before {
-  content: "\e631";
+    right: 0;
+    content: "\e631";
 }
