@@ -18,7 +18,7 @@ if (window.screen.width > 768) {
     var moduleId=modalName; //wanko haruto hijiki koharu shizuku tororo
 	L2Dwidget.init({
         "model": { 
-            "jsonPath": "packages/live2d-widget-model-" + modalName + "/assets/" + moduleId+".model.json" 
+            "jsonPath": "live2d/packages/live2d-widget-model-" + modalName + "/assets/" + moduleId+".model.json" 
         },
         "display": {
             "position": "right",
