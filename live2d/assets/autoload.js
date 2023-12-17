@@ -1,4 +1,4 @@
-console.log(window.screen.width > 768,window.screen.width);
+
 if (window.screen.width > 768) {
     try {
         $("<link>").attr({href: "live2d/assets/waifu.min.css?v=1.4.2", rel: "stylesheet", type: "text/css"}).appendTo('head');
