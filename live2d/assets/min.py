@@ -20,22 +20,6 @@ def compile_css():
         print(new_css)
         with e_css.open(encoding="utf8") as f1,new_css.open(mode="w",encoding="utf8") as f2:
             f2.write(cssmin(f1.read()))
-import random
-
-def obfuscate_js(js_code):
-    obfuscated_code = ""
-    for char in js_code:
-        obfuscated_code += random.choice(["\\u" + str(ord(char)), char])
-    return obfuscated_code
-
-# 示例代码
-js_code = '''
-function sayHello() {
-console.log("Hello, world!");
-}
-'''
-
-obfuscated_code = obfuscate_js(js_code)
-print(obfuscated_code)
+compile_js()
 
 
